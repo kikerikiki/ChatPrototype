@@ -1,0 +1,68 @@
+﻿@model LAPTemplateMVC.Models.dboSchema.Chatuser
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Chatuser</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Username" class="control-label"></label>
+                <input asp-for="Username" class="form-control" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Publickey" class="control-label"></label>
+                <input asp-for="Publickey" class="form-control" />
+                <span asp-validation-for="Publickey" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Passwordhash" class="control-label"></label>
+                <input asp-for="Passwordhash" class="form-control" />
+                <span asp-validation-for="Passwordhash" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Createdat" class="control-label"></label>
+                <input asp-for="Createdat" class="form-control" />
+                <span asp-validation-for="Createdat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModUser" class="control-label"></label>
+                <input asp-for="ModUser" class="form-control" />
+                <span asp-validation-for="ModUser" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModTimestamp" class="control-label"></label>
+                <input asp-for="ModTimestamp" class="form-control" />
+                <span asp-validation-for="ModTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CrUser" class="control-label"></label>
+                <input asp-for="CrUser" class="form-control" />
+                <span asp-validation-for="CrUser" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CrTimestamp" class="control-label"></label>
+                <input asp-for="CrTimestamp" class="form-control" />
+                <span asp-validation-for="CrTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

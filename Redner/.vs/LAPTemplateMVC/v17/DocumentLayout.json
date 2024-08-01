@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\Redner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|c:\\dev\\redner\\controllers\\chatusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|solutionrelative:controllers\\chatusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|c:\\dev\\redner\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|c:\\dev\\redner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|c:\\dev\\redner\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|c:\\dev\\redner\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|c:\\dev\\redner\\controllers\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|solutionrelative:controllers\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|c:\\dev\\redner\\models\\dbo\\chatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|solutionrelative:models\\dbo\\chatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|c:\\dev\\redner\\models\\chatlercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|solutionrelative:models\\chatlercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|c:\\dev\\redner\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|solutionrelative:views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|c:\\dev\\redner\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|c:\\dev\\redner\\models\\dbo\\chatuserinsertresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|solutionrelative:models\\dbo\\chatuserinsertresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|c:\\dev\\redner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DA3BB02A-7470-4BE7-8410-5EE006692CA0}|LAPTemplateMVC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\Redner\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\dev\\Redner\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAqwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T22:51:34.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatuserController.cs",
+              "DocumentMoniker": "C:\\dev\\Redner\\Controllers\\ChatuserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChatuserController.cs",
+              "ToolTip": "C:\\dev\\Redner\\Controllers\\ChatuserController.cs",
+              "RelativeToolTip": "Controllers\\ChatuserController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAswIYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T11:59:59.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\dev\\Redner\\Controllers\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChatHub.cs",
+              "ToolTip": "C:\\dev\\Redner\\Controllers\\ChatHub.cs",
+              "RelativeToolTip": "Controllers\\ChatHub.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T22:54:43.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\dev\\Redner\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\dev\\Redner\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T23:03:02.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\dev\\Redner\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\dev\\Redner\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAIwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T22:59:41.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dev\\Redner\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\dev\\Redner\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAiwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T22:56:48.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "chatlerContext.cs",
+              "DocumentMoniker": "C:\\dev\\Redner\\Models\\chatlerContext.cs",
+              "RelativeDocumentMoniker": "Models\\chatlerContext.cs",
+              "ToolTip": "C:\\dev\\Redner\\Models\\chatlerContext.cs",
+              "RelativeToolTip": "Models\\chatlerContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T22:52:50.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\dev\\Redner\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\dev\\Redner\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "Views\\User\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T23:01:00.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Chatuser.cs",
+              "DocumentMoniker": "C:\\dev\\Redner\\Models\\dbo\\Chatuser.cs",
+              "RelativeDocumentMoniker": "Models\\dbo\\Chatuser.cs",
+              "ToolTip": "C:\\dev\\Redner\\Models\\dbo\\Chatuser.cs",
+              "RelativeToolTip": "Models\\dbo\\Chatuser.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAmwDwAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T23:05:46.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\dev\\Redner\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\dev\\Redner\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T23:01:20.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChatuserInsertResult.cs",
+              "DocumentMoniker": "C:\\dev\\Redner\\Models\\dbo\\ChatuserInsertResult.cs",
+              "RelativeDocumentMoniker": "Models\\dbo\\ChatuserInsertResult.cs",
+              "ToolTip": "C:\\dev\\Redner\\Models\\dbo\\ChatuserInsertResult.cs",
+              "RelativeToolTip": "Models\\dbo\\ChatuserInsertResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T12:09:53.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\dev\\Redner\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\dev\\Redner\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-27T22:51:35.189Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

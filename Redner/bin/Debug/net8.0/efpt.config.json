@@ -1,0 +1,122 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "chatlerContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "LAPTemplateMVC",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[CHATUSER]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MESSAGE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChatuserDelete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ChatuserGetAll]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ChatuserGetByChatuserID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ChatuserInsert]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ChatuserUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[MessageDelete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[MessageGetAll]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[MessageGetByMessageID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[MessageGetByReceiverchatuserID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[MessageGetByReceiveruserID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[MessageGetBySenderchatuserID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[MessageGetBySenderchatuserIDReceiverchatuserID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[MessageGetBySenderuserID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[MessageGetBySenderuserIDReceiveruserID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[MessageInsert]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[MessageUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UserDelete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UserUpdate]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": true,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": true,
+   "UseSchemaNamespaces": true,
+   "UseSpatial": false,
+   "UseT4": false
+}

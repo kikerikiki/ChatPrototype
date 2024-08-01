@@ -1,0 +1,72 @@
+﻿@model LAPTemplateMVC.Models.dboSchema.Chatuser
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Chatuser</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Username)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Publickey)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Publickey)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Passwordhash)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Passwordhash)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Createdat)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Createdat)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Valid)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Valid)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ModUser)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ModUser)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ModTimestamp)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ModTimestamp)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CrUser)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CrUser)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CrTimestamp)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CrTimestamp)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Chatuserid">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

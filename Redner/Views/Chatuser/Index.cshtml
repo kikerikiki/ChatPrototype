@@ -1,0 +1,83 @@
+﻿@model IEnumerable<LAPTemplateMVC.Models.dboSchema.Chatuser>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Username)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Publickey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Passwordhash)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Createdat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModUser)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModTimestamp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CrUser)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CrTimestamp)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Publickey)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Passwordhash)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Createdat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModUser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModTimestamp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrUser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrTimestamp)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Chatuserid">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Chatuserid">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Chatuserid">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

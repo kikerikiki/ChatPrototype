@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <input type="hidden" id="userInput" value="@Context.Session.GetString("Username")" />
+    <input type="text" id="receiverInput" placeholder="Enter the receiver's username" />
+    <input type="text" id="messageInput" placeholder="Enter your message" />
+    <button onclick="sendMessage()">Send</button>
+</div>
+<ul id="messagesList"></ul>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.10/signalr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+
+<script>
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/chathub")
+        .configureLogging(signalR.LogLevel.Information)
+        .build();
+
+    connection.on("ReceiveMessage", (sender, encryptedMessage) => {
+        const decryptedMessage = decryptMessage(encryptedMessage);
+        const li = document.createElement("li");
+        li.textContent = `${sender}: ${decryptedMessage}`;
+        document.getElementById("messagesList").appendChild(li);
+    });
+
+    connection.start().then(() => {
+        console.log("SignalR connected");
+    }).catch(err => console.error("SignalR connection error: ", err.toString()));
+
+    connection.onclose(err => {
+        console.error("SignalR connection closed: ", err ? err.toString() : "Connection closed");
+    });
+
+    function sendMessage() {
+        if (connection.state === signalR.HubConnectionState.Connected) {
+            const sender = document.getElementById("userInput").value;
+            const receiver = document.getElementById("receiverInput").value;
+            const message = document.getElementById("messageInput").value;
+            const encryptedMessage = encryptMessage(message);
+            connection.invoke("SendMessage", sender, receiver, encryptedMessage).catch(err => console.error("SendMessage error: ", err.toString()));
+        } else {
+            console.error("Cannot send message. SignalR is not connected.");
+        }
+    }
+
+    function encryptMessage(message) {
+        const key = CryptoJS.enc.Utf8.parse('1234567890123456'); // Schlüssel
+        const iv = CryptoJS.enc.Utf8.parse('1234567890123456'); // Initialisierungsvektor
+
+        const encrypted = CryptoJS.AES.encrypt(message, key, { iv: iv });
+        return encrypted.toString();
+    }
+
+    function decryptMessage(encryptedMessage) {
+        const key = CryptoJS.enc.Utf8.parse('1234567890123456');
+        const iv = CryptoJS.enc.Utf8.parse('1234567890123456');
+
+        const decrypted = CryptoJS.AES.decrypt(encryptedMessage, key, { iv: iv });
+        return decrypted.toString(CryptoJS.enc.Utf8);
+    }
+</script>
